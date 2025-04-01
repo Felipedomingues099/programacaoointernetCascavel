@@ -1,0 +1,322 @@
+<html>
+    <head>
+        <title>
+            Hor&aacute;rios de Aula
+        </title>
+        <link href="estilo.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <table id="FundoDaTabela" border="1">
+            <tr>
+                <th colspan="10" id="titulo">Hor&aacute;rios de Aula</th>
+            </tr>
+            <tr id="cabecalho">
+                <th><img src="data:image/jpeg;base64,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" width="100px"></th>
+                <th>Hr. Inicial</th>
+                <th>Hr. Final</th>
+                <th>Cod. Disp. Lyceum</th>
+                <th>Disciplinas</th>
+                <th>Te&oacute;rica/Pr&aacute;tica</th>
+                <th>Semanal/quinzenal</th>
+                <th>MAT.</th>
+                <th>professor</th>
+                <th>Sala ou lab.</th>
+               
+            </tr>
+            <tr id="SEG">
+                <th rowspan="7">SEG</th>
+                <td>19:10</td>
+                <td>20:00</td>
+                <td>615254</td>
+                <td>DESENVOLVIMENTO PARA INTERNET (ARS+ENG) - Turma A</td>
+                <td>pr&aacute;tica</td>
+                <td>Semanal</td>
+                <td>12184</td>
+                <td>PAULO H. P. DOS SANTOS</td>
+                <td>LAB 4/1</td>
+
+            </tr>
+            <tr id="SEG">
+                <td>20:00</td>
+                <td>20:50</td>
+                <td>615254</td>
+                <td>DESENVOLVIMENTO PARA INTERNET (ARS+ENG) - Turma A</td>
+                <td>pr&aacute;tica</td>
+                <td>Semanal</td>
+                <td>12184</td>
+                <td>PAULO H. P. DOS SANTOS</td>
+                <td>LAB 4/1</td>
+            </tr>
+            <tr id="SEG">
+                <td>19:10</td>
+                <td>20:00</td>
+                <td>615255</td>
+                <td>AMBIENTA&Ccedil;&Atilde;O TECH (ADS+ENG) - Turma B</td>
+                <td>pr&aacute;tica</td>
+                <td>Semanal</td>
+                <td>12911</td>
+                <td>PATRICK JOS&Eacute; CARDOSO</td>
+                <td>LAB 1/ HARDWARE</td>
+            </tr>
+            <tr id="SEG">
+                <td>20:00</td>
+                <td>20:50</td>
+                <td>615255</td>
+                <td>AMBIENTA&Ccedil;&Atilde;O TECH (ADS+ENG) - Turma B</td>
+                <td>pr&aacute;tica</td>
+                <td>Semanal</td>
+                <td>12911</td>
+                <td>PATRICK JOS&Eacute; CARDOSO</td>
+                <td>LAB 1/ HARDWARE</td>
+            </tr>
+            <tr id="SEG">
+                <td>20:50</td>
+                <td>21:00</td>
+                <th colspan="7">Intervalo</th>
+            </tr>
+            <tr id="SEG">
+                <td>21:00</td>
+                <td>21:50</td>
+                <td>615254</td>
+                <td>DESENVOLVIMENTO PARA INTERNET (ARS+ENG) - Turma A</td>
+                <td>Te&oacute;rica</td>
+                <td>Semanal</td>
+                <td>12184</td>
+                <td>PAULO H. P. DOS SANTOS</td>
+                <td>LAB 4/1</td>
+            </tr>
+            <tr id="SEG">
+                <td>21:50</td>
+                <td>22:40</td>
+                <td>615254</td>
+                <td>DESENVOLVIMENTO PARA INTERNET (ARS+ENG) - Turma A</td>
+                <td>Te&oacute;rica</td>
+                <td>Semanal</td>
+                <td>12184</td>
+                <td>PAULO H. P. DOS SANTOS</td>
+                <td>LAB 4/1</td>
+            </tr>
+            
+            <tr id="TER">
+                <th rowspan="7">TER</th>
+                <td>19:10</td>
+                <td>20:00</td>
+                <td>615257</td>
+                <td>DIREITO DIGITAL (ADS+ENG)</td>
+                <td>Te&oacute;rica</td>
+                <td>Semanal</td>
+                <td>3495</td>
+                <td>ADEMIR JESUS DA VEIGA</td>
+                <td>SALA D06</td>
+
+            </tr>
+            <tr id="TER">
+                <td>20:00</td>
+                <td>20:50</td>
+                <td>615257</td>
+                <td>DIREITO DIGITAL (ADS+ENG)</td>
+                <td>Te&oacute;rica</td>
+                <td>Semanal</td>
+                <td>3495</td>
+                <td>ADEMIR JESUS DA VEIGA</td>
+                <td>SALA D06</td>
+            </tr>
+            <tr id="TER">
+                <td>20:50</td>
+                <td>21:00</td>
+                <th colspan="7">Intervalo</th>
+            </tr>
+            <tr id="TER">
+                <td>21:00</td>
+                <td>21:50</td>
+                <td>615254</td>
+                <td>DESENVOLVIMENTO PARA INTERNET (ARS+ENG) - Turma B</td>
+                <td>pr&aacute;tica</td>
+                <td>Semanal</td>
+                <td>12184</td>
+                <td>DARLON FRANKLIN RODRIGUES</td>
+                <td>LAB 4/1</td>
+            </tr>
+            <tr id="TER">
+                <td>21:50</td>
+                <td>22:40</td>
+                <td>615254</td>
+                <td>DESENVOLVIMENTO PARA INTERNET (ARS+ENG) - Turma B</td>
+                <td>pr&aacute;tica</td>
+                <td>Semanal</td>
+                <td>12184</td>
+                <td>DARLON FRANKLIN RODRIGUES</td>
+                <td>LAB 4/1</td>
+            </tr>
+            <tr id="TER">
+                <td>21:00</td>
+                <td>21:50</td>
+                <td>615255</td>
+                <td>AMBIENTA&Ccedil;&Atilde;O TECH (ADS+ENG) - Turma A</td>
+                <td>pr&aacute;tica</td>
+                <td>Semanal</td>
+                <td>12911</td>
+                <td>PATRICK JOS&Eacute; CARDOSO</td>
+                <td>LAB 1/ HARDWARE</td>
+            </tr>
+            <tr id="TER">
+                <td>21:50</td>
+                <td>21:40</td>
+                <td>615255</td>
+                <td>AMBIENTA&Ccedil;&Atilde;O TECH (ADS+ENG) - Turma A</td>
+                <td>pr&aacute;tica</td>
+                <td>Semanal</td>
+                <td>12911</td>
+                <td>PATRICK JOS&Eacute; CARDOSO</td>
+                <td>LAB 1/ HARDWARE</td>
+            </tr>
+            
+            <tr id="QUA">
+                <th rowspan="5">QUA</th>
+                <td>19:10</td>
+                <td>20:00</td>
+                <td>615001</td>
+                <td>PENSAMENTO COMPUTACIONAL (ADS+ENG)</td>
+                <td>Te&oacute;rica</td>
+                <td>Semanal</td>
+                <td>9131</td>
+                <td>FERNANDO RIGO BOTELHO</td>
+                <td>LAB 4</td>
+
+            </tr>
+            <tr id="QUA">
+                <td>20:00</td>
+                <td>20:50</td>
+                <td>615001</td>
+                <td>PENSAMENTO COMPUTACIONAL (ADS+ENG)</td>
+                <td>Te&oacute;rica</td>
+                <td>Semanal</td>
+                <td>9131</td>
+                <td>FERNANDO RIGO BOTELHO</td>
+                <td>LAB 4</td>
+            </tr>
+            <tr id="QUA">
+                <td>20:50</td>
+                <td>21:00</td>
+                <th colspan="7">Intervalo</th>
+            </tr>
+            <tr id="QUA">
+                <td>21:00</td>
+                <td>21:50</td>
+                <td>614327</td>
+                <td>LINGUAGEM E INTERA&Ccedil;&Atilde;O (ADS+ENG)</td>
+                <td>Te&oacute;rica</td>
+                <td>Semanal</td>
+                <td>12707</td>
+                <td>LET&Iacute;CIA PILUSKI POZZOBON</td>
+                <td>SALA D06</td>
+            </tr>
+            <tr id="QUA">
+                <td>21:50</td>
+                <td>22:40</td>
+                <td>614327</td>
+                <td>LINGUAGEM E INTERA&Ccedil;&Atilde;O (ADS+ENG)</td>
+                <td>Te&oacute;rica</td>
+                <td>Semanal</td>
+                <td>12707</td>
+                <td>LET&Iacute;CIA PILUSKI POZZOBON</td>
+                <td>SALA D06</td>
+            </tr>
+            
+            <tr id="QUI">
+                <th rowspan="5">QUI</th>
+                <td>19:10</td>
+                <td>20:00</td>
+                <td>615255</td>
+                <td>AMBIENTA&Ccedil;&Atilde;O TECH (ADS+ENG) - Turma A</td>
+                <td>Te&oacute;rica</td>
+                <td>Semanal</td>
+                <td>12911</td>
+                <td>PATRICK JOS&Eacute; CARDOSO</td>
+                <td>LAB 4</td>
+
+            </tr>
+            <tr id="QUI">
+                <td>20:00</td>
+                <td>20:50</td>
+                <td>615255</td>
+                <td>AMBIENTA&Ccedil;&Atilde;O TECH (ADS+ENG) - Turma A</td>
+                <td>Te&oacute;rica</td>
+                <td>Semanal</td>
+                <td>12911</td>
+                <td>PATRICK JOS&Eacute; CARDOSO</td>
+                <td>LAB 4</td>
+            </tr>
+            <tr id="QUI">
+                <td>20:50</td>
+                <td>21:00</td>
+                <th colspan="7">Intervalo</th>
+            </tr>
+            <tr id="QUI">
+                <td>21:00</td>
+                <td>21:50</td>
+                <td>615256</td>
+                <td>CYBERSEGURANCA (ADS+ENG)</td>
+                <td>Te&oacute;rica</td>
+                <td>Semanal</td>
+                <td>12184</td>
+                <td>PATRICK JOS&Eacute; CARDOSO</td>
+                <td>LAB 4/ LAB
+                    HARDWARE</td>
+            </tr>
+            <tr id="QUI">
+                <td>21:50</td>
+                <td>22:40</td>
+                <td>615256</td>
+                <td>CYBERSEGURANCA (ADS+ENG)</td>
+                <td>Te&oacute;rica</td>
+                <td>Semanal</td>
+                <td>12184</td>
+                <td>PATRICK JOS&Eacute; CARDOSO</td>
+                <td>LAB 4/ LAB
+                    HARDWARE</td>
+            </tr>
+            <tr id="SEX">
+                <th rowspan="5">SEX</th>
+                <td>19:10</td>
+                <td>20:00</td>
+                <td>614432</td>
+                <td>EXTENS&Atilde;O I</td>
+                <td>Pr&aacute;tica</td>
+                <td>quinzenal</td>
+                <td>9131</td>
+                <td>FERNANDO RIGO BOTELHO</td>
+                <td>LAB 4 <br>
+                    (CRONOGRAMA PR&Oacute;PRIO)</td>
+
+            </tr>
+            <tr id="SEX">
+                <td>20:00</td>
+                <td>20:50</td>
+                <td>614432</td>
+                <td>EXTENS&Atilde;O I</td>
+                <td>Pr&aacute;tica</td>
+                <td>Quinzenal</td>
+                <td>9131</td>
+                <td>FERNANDO RIGO BOTELHO</td>
+                <td>LAB 4 <br>
+                    (CRONOGRAMA PR&Oacute;PRIO)</td>
+            </tr>
+            <tr id="SEX">
+                <td>20:50</td>
+                <td>21:00</td>
+                <th colspan="7">Intervalo</th>
+            </tr>
+            <tr id="SEX">
+                <td>21:00</td>
+                <td>21:50</td>
+                <th colspan="7">ESTUDOS</th>
+            </tr>
+            <tr id="SEX">
+                <td>21:50</td>
+                <td>22:40</td>
+                <th colspan="7">ESTUDOS</th>
+            </tr>
+        </table>
+    </body>
+</html>
